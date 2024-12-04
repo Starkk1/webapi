@@ -18,7 +18,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // app.UseHttpsRedirection(); // Commented out to disable HTTPS redirection
-app.UseAuthorization();
+app.UseAuthorization(); //test
 app.MapControllers();
 
 var summaries = new[]
